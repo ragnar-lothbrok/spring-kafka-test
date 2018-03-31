@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: casmgmtadptr
+  kafka:
+    bootstrap-servers: localhost:9092
+kafkaconfig:
+  topic: test_one
+  groupId: casemgmtadaptor_one
+  partitionCount: 1
+  retries: 3
+  autoCommitEnabled: false
